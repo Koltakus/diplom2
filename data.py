@@ -15,5 +15,3 @@ class Data:
 
     # TL = TestLogin
     INCORRECT_CREDENTIALS_ERROR_MESSAGE = 'email or password are incorrect'
-
-    # TUDU = TestUserDataUpdate
