@@ -14,10 +14,10 @@ class ApiUrl:
     GET_USERS_ORDERS = f'{BASE_API_URL}orders'
 
     # API для удаления пользователя DELETE https://stellarburgers.nomoreparties.site/api/auth/user
-    # !!! ссылка дается полностью, т.к. при замене на f- строку с BASE_API_URL запросы не отрабатывают !!!
-    DELETE_USER_URL = "https://stellarburgers.nomoreparties.site/api/auth/user"
+
+    DELETE_USER_URL = f'{BASE_API_URL}auth/user'
 
     # API для обновления данных пользователя PATCH "https://stellarburgers.nomoreparties.site/api/auth/user"
-    # !!! ссылка дается полностью, т.к. при замене на f- строку с BASE_API_URL запросы не отрабатывают !!!
-    UPDATE_USER_DATA_URL = "https://stellarburgers.nomoreparties.site/api/auth/user"
+
+    UPDATE_USER_DATA_URL = f'{BASE_API_URL}auth/user'
 
